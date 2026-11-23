@@ -1,0 +1,7 @@
+frame_id,source,phenomenon,affected_field,effect_on_label
+S01_ir,IR_sim,Độ tương phản thấp và mất thông tin màu sắc trên vật thể,object.type,Mất thông tin màu sắc khiến khó nhận diện chất liệu túi/hộp; phải dựa vào hình dáng hình học và quai đeo để gán type
+S02_ir,IR_sim,Kênh ảnh mô phỏng đơn sắc khiến vùng bóng đổ của áo tối trùng màu ghế,person.seatbelt,Không quan sát thấy đường viền dây an toàn qua vai; tuân thủ luật không thấy thì gán unknown
+S03_ir,IR_sim,Mất hoàn toàn màu sắc hoa văn trên vải ghế và đồ vật,object.type,Hoa văn và nhãn mác đồ vật bị mờ phẳng; chỉ nhận diện được type dựa vào đường bao hình học
+D01,real_IR,Phản xạ chói sáng của đèn LED NIR (940nm) trên bề mặt tròng kính,face.eye_left,Che khuất một phần mí và con ngươi mắt trái; phải ghi eye_left=unknown và đánh cờ occluded=1 trên face13
+D02,real_IR,Bức xạ NIR xuyên qua vật liệu kính râm khiến tròng kính nhìn như trong suốt,face.glasses,Tròng kính râm nhìn thấu được mắt nhưng có gọng kính râm dày; cần cẩn trọng tránh nhầm lẫn glasses=none hoặc clear
+D04,real_IR,Cường độ chùm sáng NIR giảm nhanh theo bình phương khoảng cách,hand.on_wheel,Bàn tay ở vùng xa nguồn phát LED bị tối và lẫn vào nền vô lăng; phải căn chỉnh contrast hiển thị để kiểm tra tay có chạm vô lăng không

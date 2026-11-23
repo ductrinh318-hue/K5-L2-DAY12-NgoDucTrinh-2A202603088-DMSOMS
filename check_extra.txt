@@ -1,0 +1,9 @@
+File: export_extra.zip
+Ảnh: 4 · đã có frame_meta: 4 · số đối tượng: child_seat=6, person=2
+  [WARN] S09_ir.png: ảnh SVIRO là ảnh dựng: light nên là 'unknown'
+  [WARN] S09_rgb.png: ảnh SVIRO là ảnh dựng: light nên là 'unknown'
+  [WARN] S10_rgb.png: ảnh SVIRO là ảnh dựng: light nên là 'unknown'
+Kết quả: 0 lỗi, 3 cảnh báo. Cảnh báo cần bạn tự xét, không tự động là sai.
+
+Giải thích cảnh báo (WARN):
+- [S09_ir.png, S09_rgb.png, S10_rgb.png]: Ảnh SVIRO là ảnh mô phỏng máy tính 3D, cảnh ban ngày nên tag ban đầu để light=day, theo guideline chấp nhận light=unknown.

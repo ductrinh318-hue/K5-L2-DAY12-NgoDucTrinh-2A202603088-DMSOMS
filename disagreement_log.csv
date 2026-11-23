@@ -1,0 +1,38 @@
+﻿image,label,field,issue,mine,peer,verdict,guideline_rule,action
+D01.png,frame_meta,light,khác giá trị,unknown,night,peer,4.3,"Ảnh D## là ban đêm/NIR trong xe, có thể chấp nhận light=night"
+D02.png,frame_meta,light,khác giá trị,unknown,night,peer,4.3,"Ảnh D## là ban đêm/NIR trong xe, có thể chấp nhận light=night"
+D03.png,frame_meta,light,khác giá trị,unknown,night,peer,4.3,"Ảnh D## là ban đêm/NIR trong xe, có thể chấp nhận light=night"
+D03.png,face13,mouth_left.occluded,khác cờ,1,0,mine,4.6,Đánh cờ occluded=1 do vùng miệng bị tay/vật cản che khuất
+D03.png,face13,mouth_right.occluded,khác cờ,1,0,mine,4.6,Đánh cờ occluded=1 do vùng miệng bị tay/vật cản che khuất
+D03.png,face13,lip_upper.occluded,khác cờ,1,0,mine,4.6,Đánh cờ occluded=1 do vùng miệng bị tay/vật cản che khuất
+D04.png,frame_meta,light,khác giá trị,unknown,night,peer,4.3,"Ảnh D## là ban đêm/NIR trong xe, có thể chấp nhận light=night"
+D05.png,frame_meta,light,khác giá trị,unknown,night,peer,4.3,"Ảnh D## là ban đêm/NIR trong xe, có thể chấp nhận light=night"
+D06.png,frame_meta,light,khác giá trị,unknown,night,peer,4.3,"Ảnh D## là ban đêm/NIR trong xe, có thể chấp nhận light=night"
+D06.png,face,gaze_zone,khác giá trị (IoU=0.92),mirror_l,other,mine,4.5,Giữ mirror_l vì tài xế đang nghiêng đầu liếc nhìn gương chiếu hậu bên trái
+D06.png,face13,left_eye_outer.occluded,khác cờ,0,1,,,
+D06.png,face13,left_eye_outer.outside,khác cờ,1,0,mine,4.6,Điểm mắt trái nằm ngoài khung hình do góc quay nên đánh cờ outside=1 thay vì occluded=1
+D06.png,face13,left_eye_inner.occluded,khác cờ,0,1,,,
+D06.png,face13,left_eye_inner.outside,khác cờ,1,0,mine,4.6,Điểm mắt trái nằm ngoài khung hình do góc quay nên đánh cờ outside=1 thay vì occluded=1
+D06.png,face13,left_eye_upper.occluded,khác cờ,0,1,,,
+D06.png,face13,left_eye_upper.outside,khác cờ,1,0,mine,4.6,Điểm mắt trái nằm ngoài khung hình do góc quay nên đánh cờ outside=1 thay vì occluded=1
+D06.png,face13,left_eye_lower.occluded,khác cờ,0,1,,,
+D06.png,face13,left_eye_lower.outside,khác cờ,1,0,mine,4.6,Điểm mắt trái nằm ngoài khung hình do góc quay nên đánh cờ outside=1 thay vì occluded=1
+D06.png,face13,mouth_left.occluded,khác cờ,1,0,mine,4.6,Đánh cờ occluded=1 do vùng miệng bị tay/vật cản che khuất
+S01_ir.png,frame_meta,light,khác giá trị,unknown,day,mine,3 & 4.3,Ảnh SVIRO là ảnh dựng nên light để unknown theo guideline
+S01_ir.png,child_seat,occupied,khác giá trị (IoU=0.98),unknown,yes,mine,4.1 & 4.8,"Peer sửa từ yes thành unknown vì schema chỉ cho phép no/unknown, SVIRO không có yes"
+S01_rgb.png,child_seat,occupied,khác giá trị (IoU=0.97),unknown,yes,mine,4.1 & 4.8,"Peer sửa từ yes thành unknown vì schema chỉ cho phép no/unknown, SVIRO không có yes"
+S02_ir.png,frame_meta,light,khác giá trị,unknown,day,mine,3 & 4.3,Ảnh SVIRO là ảnh dựng nên light để unknown theo guideline
+S02_ir.png,face,box,chỉ có ở mine (hoặc IoU thấp),IoU=0.00,,mine,4.1 & 4.2,Peer cần vẽ thêm box face ôm mặt cho đối tượng person người lớn
+S02_rgb.png,face,box,chỉ có ở mine (hoặc IoU thấp),IoU=0.00,,mine,4.1 & 4.2,Peer cần vẽ thêm box face ôm mặt cho đối tượng person người lớn
+S03_ir.png,frame_meta,light,khác giá trị,unknown,day,mine,3 & 4.3,Ảnh SVIRO là ảnh dựng nên light để unknown theo guideline
+S04_ir.png,frame_meta,light,khác giá trị,unknown,day,mine,3 & 4.3,Ảnh SVIRO là ảnh dựng nên light để unknown theo guideline
+S04_ir.png,infant_seat,facing,khác giá trị (IoU=0.99),front,rear,ambiguous,4.1 & 4.8,Kiểm tra lại hướng của quai nôi em bé; thống nhất hướng nhìn về sau xe (rear) hoặc trước (front)
+S04_rgb.png,infant_seat,facing,khác giá trị (IoU=0.99),front,rear,ambiguous,4.1 & 4.8,Kiểm tra lại hướng của quai nôi em bé; thống nhất hướng nhìn về sau xe (rear) hoặc trước (front)
+S05_ir.png,frame_meta,light,khác giá trị,unknown,day,mine,3 & 4.3,Ảnh SVIRO là ảnh dựng nên light để unknown theo guideline
+S06_ir.png,frame_meta,light,khác giá trị,unknown,day,mine,3 & 4.3,Ảnh SVIRO là ảnh dựng nên light để unknown theo guideline
+S07_ir.png,frame_meta,light,khác giá trị,unknown,day,mine,3 & 4.3,Ảnh SVIRO là ảnh dựng nên light để unknown theo guideline
+S08_ir.png,frame_meta,light,khác giá trị,unknown,day,mine,3 & 4.3,Ảnh SVIRO là ảnh dựng nên light để unknown theo guideline
+S08_ir.png,child_seat,occupied,khác giá trị (IoU=0.98),unknown,yes,mine,4.1 & 4.8,"Peer sửa từ yes thành unknown vì schema chỉ cho phép no/unknown, SVIRO không có yes"
+S08_ir.png,face,box,chỉ có ở mine (hoặc IoU thấp),IoU=0.00,,mine,4.1 & 4.2,Peer cần vẽ thêm box face ôm mặt cho đối tượng person người lớn
+S08_rgb.png,face,box,chỉ có ở mine (hoặc IoU thấp),IoU=0.00,,mine,4.1 & 4.2,Peer cần vẽ thêm box face ôm mặt cho đối tượng person người lớn
+S08_rgb.png,child_seat,occupied,khác giá trị (IoU=0.97),unknown,yes,mine,4.1 & 4.8,"Peer sửa từ yes thành unknown vì schema chỉ cho phép no/unknown, SVIRO không có yes"
